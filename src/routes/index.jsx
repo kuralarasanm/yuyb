@@ -25,10 +25,11 @@ export default function Router() {
     {
       path: "/",
       element: (
-        <MainLayout/>
+        <MainLayout />
       ),
       children: [
-        { element: <HomePage />, index: true }
+        { element: <HomePage />, index: true },
+        { element: <PropertyPage />, path: "property:id" },
       ],
     },
     { path: "*", element: <Navigate to="/404" replace /> },
@@ -38,3 +39,4 @@ export default function Router() {
 // IMPORT COMPONENTS
 
 const HomePage = Loadable(lazy(() => import("../pages/Home")));
+const PropertyPage = Loadable(lazy(() => import("../pages/Property")));
