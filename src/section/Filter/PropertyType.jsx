@@ -1,3 +1,6 @@
+import { Box, Checkbox, Grid, InputLabel, Stack, Typography } from '@mui/material'
+import React from 'react'
+import { House, Lamp, Plus, Minus } from '@phosphor-icons/react'
 
 
 const PropertyType = () => {

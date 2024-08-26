@@ -1,4 +1,6 @@
 import { Hero } from "../section/Property"
+import { Container, Stack } from "@mui/material"
+import React from 'react'
 
 
 const Property = () => {

@@ -1,6 +1,8 @@
 import { Box, Card, CardMedia, Chip, Grid } from '@mui/material'
 import { Star } from "@phosphor-icons/react"
 import { useTheme } from "@mui/material/styles"
+import React from 'react'
+
 
 const images = [
     "https://img.vistarooms.com/gallery/vista-sadh-villa-c227d4.jpg",

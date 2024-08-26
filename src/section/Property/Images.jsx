@@ -1,3 +1,5 @@
+import { Box, Button, Grid } from "@mui/material"
+import Image from "next/image"
 
 const images = [
     "https://img.vistarooms.com/gallery/vista-sadh-villa-c227d4.jpg",

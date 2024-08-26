@@ -1,6 +1,8 @@
 
 import { Box, Container, Grid } from "@mui/material"
 import Filter from "../section/Filter";
+import SearchResults from "../section/SearchResults";
+
 const Home = () => {
   return (
     <Container maxWidth="xl">

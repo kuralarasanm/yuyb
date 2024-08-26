@@ -4,6 +4,9 @@ import PriceRange from "./PriceRange"
 import PropertyType from "./PropertyType"
 import TypeOfPlace from "./TypeOfPlace"
 
+import { Box, Button, Card, Divider, Stack, Typography } from '@mui/material'
+
+
 
 const Filter = () => {
     return (

@@ -1,5 +1,8 @@
 
-
+import { Box, Checkbox, Divider, Grid, InputLabel, Stack, Typography } from '@mui/material';
+import React from 'react';
+import { MinusCircle, PlusCircle } from "@phosphor-icons/react";
+import { useTheme } from "@mui/material/styles";
 const Amenities = () => {
   return (
     <Stack spacing={1}>

@@ -1,5 +1,7 @@
 
 import Images from './Images'
+import { Box, Button, Grid, Stack, Typography } from '@mui/material'
+import { Export, Heart } from 'phosphor-react'
 
 const Hero = () => {
     return (

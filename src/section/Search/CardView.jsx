@@ -2,6 +2,8 @@ import { Box, Tabs, Tab } from "@mui/material"
 import { Park, Bed, CastleTurret, SwimmingPool, Treepalm, Umbrella } from "@phosphor-icons/react"
 import PropTypes from "prop-types"
 import Properties from "./Properties";
+import chi1dren from "./chi1dren"
+
 
 CardView.propTypes = {
     value: PropTypes.number,

@@ -2,6 +2,8 @@ import React from 'react'
 import Logo from '../../components/Logo'
 import Input from '../../components/Input'
 import faker from '@faker-js/faker'
+import { Avatar, Box, Stack } from '@mui/material'
+
 
 const Header = () => {
     return (

@@ -4,6 +4,7 @@ import useResponsive from "../../hooks/useResponsive"
 import CardView from './CardView';
 import Map from './Map';
 import { countries as COUNTRIES } from "../../_mock/map/countries"
+import { MAPBOX } from "../../_mock/map/mapbox"
 
 const baseSettings = {
     mapboxAccessToken: MAPBOX.API,

@@ -3,6 +3,8 @@ import MapGL from 'react-map-gl'
 import { MapControlPopup, MapControlMarker, MapControlGeolocate, MapControlFullscreen, MapControlNavigation, MapControlScale } from '../../components/map'
 import { Card, CardContent } from '@mui/material'
 import styled from "@mui/material/styles";
+import { styled } from '@mui/system';
+
 
 const MapWrapperStyle=styled("div")(({theme})=>({
     zIndex: 0,
